@@ -131,3 +131,38 @@ nav a:hover {
 .cta h2 {
     margin-bottom: 20px;
 } 
+/* Aula 5*/
+.cta button {
+    background: white;
+    color: #4f46e5;
+    border: none;
+    padding: 15px 25px;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.cta button:hover {
+    background: #e5e7eb;
+}
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 30px;
+    background: #111;
+    color: white;
+    margin-top: 50px;
+}
+/*  RESPONSIVO*/
+@media (max-width:900px) {
+    .hero {
+    flex-direction: column;
+    text-align: center;
+    }
+ .hero-img img {
+    width: 100%;
+}
+  nav ul{
+    display: none;
+  }
+}

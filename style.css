@@ -140,7 +140,7 @@ nav a:hover {
     border-radius: 10px;
     font-size: 16px;
     cursor: pointer;
-    transition: 0.3s;
+    transition: 0.3s;s
 }
 .cta button:hover {
     background: #e5e7eb;
